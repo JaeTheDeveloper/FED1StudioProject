@@ -1,4 +1,10 @@
-﻿body {
+﻿/*
+Imported Font(s):
+'Bangers', cursive;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body {
     background-color: #3F464D;
     font-size: 16px;
 }
@@ -6,12 +12,21 @@
 header {
     background-color: #7ECEFC;
     color: #3F464D;
+    border: 2px white;
+    border-radius: 5px;
+    text-align: center;
+    background-image: radial-gradient(circle farthest-side at 50% 60%, #FFF6E6, #7ECEFC, #2186C4);
+}
+
+header h1 {
+    font-family: 'Bangers', cursive;
 }
 
 nav {
     background-color: #FF8066;
     color: #3F464D;
     font-weight: 800;
+    text-align: right;
 }
 
 /*horizontal nav bar styling*/
@@ -43,6 +58,8 @@ nav a:hover, .selected {
 main {
     background-color: #7ECEFC;
     color: #3F464D;
+    border: 2px white;
+    border-radius: 5px;
 }
 #footerStyle {
     color: #FFF6E6;
