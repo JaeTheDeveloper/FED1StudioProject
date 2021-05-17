@@ -14,8 +14,8 @@ header {
     color: #3F464D;
     border: 2px white;
     border-radius: 5px;
-    text-align: center;
-    background-image: radial-gradient(circle farthest-side at 50% 60%, #FFF6E6, #7ECEFC, #2186C4);
+    /*text-align: center;*/
+    background-image: linear-gradient(to right, #FFF6E6, #7ECEFC, #2186C4);
 }
 
 header h1 {
@@ -26,7 +26,7 @@ nav {
     background-color: #FF8066;
     color: #3F464D;
     font-weight: 800;
-    text-align: right;
+    /*text-align: right;*/
 }
 
 /*horizontal nav bar styling*/

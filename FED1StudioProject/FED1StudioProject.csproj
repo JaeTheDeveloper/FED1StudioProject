@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Classes.html" />
+    <Content Include="favicon.ico" />
     <Content Include="index.html" />
     <Content Include="stylesheets\custom.css" />
     <Content Include="Team.html" />
